@@ -12,13 +12,13 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= '', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [], // Comma separated array of Xively Feed ID numbers
-		applicationName	= '', // Replaces Xively logo in the header
+	var defaultKey		= 'xdAqCOpDycO0muGcWICUcWuKjaJZigSEQ0YXT1XJkwFqd2xK', // Unique master Xively API key to be used as a default
+		defaultFeeds	= ['1029041212'], // Comma separated array of Xively Feed ID numbers
+		applicationName	= 'Roundarch Isobar Light Sensor', // Replaces Xively logo in the header
 		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
-		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
-		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
+		dataColor		= 'cc0000', // CSS HEX value of color to represent data (omit leading #)
+		hideForm		= 1; // To hide input form use value of 1, otherwise set to 0
 
 // Function Declarations
 
